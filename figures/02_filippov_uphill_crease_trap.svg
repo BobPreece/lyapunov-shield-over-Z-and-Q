@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <rect x="2.00" y="2.00" width="956.00" height="556.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.50" rx="8.0"/>
+  <rect x="2.00" y="2.00" width="956.00" height="58.00" fill="#0f172a" stroke="none" rx="8.0"/>
+  <rect x="2.00" y="46.00" width="956.00" height="14.00" fill="#0f172a" stroke="none"/>
+  <text x="22.00" y="27.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#f8fafc" text-anchor="start">02. Control Trap 1: Uphill Filippov Sliding Along Switching Crease x_1 = 0</text>
+  <text x="22.00" y="48.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.0" font-weight="400" fill="#94a3b8" text-anchor="start">Interior quadrants strictly decay (CERTIFIED_EXACT), yet crease x_1 = 0 slides uphill with D^+_{f_S} V(x*) = +1/2 &gt; 0 (FALSIFIED_COUNTEREXAMPLE)</text>
+  <rect x="18.00" y="72.00" width="480.00" height="470.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="18.00" y="72.00" width="480.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="30.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">2D Phase Portrait &amp; |x_1| + |x_2| Contours on [-1, 1]^2</text>
+  <line x1="68.00" y1="500.00" x2="68.00" y2="116.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="500.00" x2="452.00" y2="500.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="68.00" y="516.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">-1.0</text>
+  <text x="58.00" y="503.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">-1.0</text>
+  <line x1="164.00" y1="500.00" x2="164.00" y2="116.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="404.00" x2="452.00" y2="404.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="164.00" y="516.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">-0.5</text>
+  <text x="58.00" y="407.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">-0.5</text>
+  <line x1="260.00" y1="500.00" x2="260.00" y2="116.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="308.00" x2="452.00" y2="308.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="260.00" y="516.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.0</text>
+  <text x="58.00" y="311.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">0.0</text>
+  <line x1="356.00" y1="500.00" x2="356.00" y2="116.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="212.00" x2="452.00" y2="212.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="356.00" y="516.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.5</text>
+  <text x="58.00" y="215.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">0.5</text>
+  <line x1="452.00" y1="500.00" x2="452.00" y2="116.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="116.00" x2="452.00" y2="116.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="452.00" y="516.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">1.0</text>
+  <text x="58.00" y="119.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">1.0</text>
+  <text x="260.00" y="534.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#334155" text-anchor="middle">x_1</text>
+  <text x="26.00" y="268.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#334155" text-anchor="start">x_2</text>
+  <polygon points="317.60,308.00 260.00,250.40 202.40,308.00 260.00,365.60" fill="none" stroke="#0d9488" stroke-width="1.10" stroke-dasharray="4,3"/>
+  <polygon points="375.20,308.00 260.00,192.80 144.80,308.00 260.00,423.20" fill="none" stroke="#0d9488" stroke-width="1.10" stroke-dasharray="4,3"/>
+  <polygon points="432.80,308.00 260.00,135.20 87.20,308.00 260.00,480.80" fill="none" stroke="#0d9488" stroke-width="1.10" stroke-dasharray="4,3"/>
+  <line x1="116.00" y1="452.00" x2="136.76" y2="458.92" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="141.50,460.50 135.87,461.58 137.64,456.26" fill="#0d9488" stroke="none"/>
+  <line x1="116.00" y1="375.20" x2="137.27" y2="380.33" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="142.13,381.51 136.61,383.06 137.93,377.61" fill="#0d9488" stroke="none"/>
+  <line x1="116.00" y1="240.80" x2="137.27" y2="235.67" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="142.13,234.49 137.93,238.39 136.61,232.94" fill="#0d9488" stroke="none"/>
+  <line x1="116.00" y1="164.00" x2="136.76" y2="157.08" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="141.50,155.50 137.64,159.74 135.87,154.42" fill="#0d9488" stroke="none"/>
+  <line x1="192.80" y1="452.00" x2="213.08" y2="460.22" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="217.71,462.10 212.03,462.82 214.13,457.63" fill="#0d9488" stroke="none"/>
+  <line x1="192.80" y1="375.20" x2="213.56" y2="382.12" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="218.30,383.70 212.67,384.78 214.44,379.46" fill="#0d9488" stroke="none"/>
+  <line x1="192.80" y1="240.80" x2="213.56" y2="233.88" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="218.30,232.30 214.44,236.54 212.67,231.22" fill="#0d9488" stroke="none"/>
+  <line x1="192.80" y1="164.00" x2="213.08" y2="155.78" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="217.71,153.90 214.13,158.37 212.03,153.18" fill="#0d9488" stroke="none"/>
+  <line x1="327.20" y1="452.00" x2="306.92" y2="460.22" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="302.29,462.10 305.87,457.63 307.97,462.82" fill="#0d9488" stroke="none"/>
+  <line x1="327.20" y1="375.20" x2="306.44" y2="382.12" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="301.70,383.70 305.56,379.46 307.33,384.78" fill="#0d9488" stroke="none"/>
+  <line x1="327.20" y1="240.80" x2="306.44" y2="233.88" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="301.70,232.30 307.33,231.22 305.56,236.54" fill="#0d9488" stroke="none"/>
+  <line x1="327.20" y1="164.00" x2="306.92" y2="155.78" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="302.29,153.90 307.97,153.18 305.87,158.37" fill="#0d9488" stroke="none"/>
+  <line x1="404.00" y1="452.00" x2="383.24" y2="458.92" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="378.50,460.50 382.36,456.26 384.13,461.58" fill="#0d9488" stroke="none"/>
+  <line x1="404.00" y1="375.20" x2="382.73" y2="380.33" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="377.87,381.51 382.07,377.61 383.39,383.06" fill="#0d9488" stroke="none"/>
+  <line x1="404.00" y1="240.80" x2="382.73" y2="235.67" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="377.87,234.49 383.39,232.94 382.07,238.39" fill="#0d9488" stroke="none"/>
+  <line x1="404.00" y1="164.00" x2="383.24" y2="157.08" stroke="#0d9488" stroke-width="1.30"/>
+  <polygon points="378.50,155.50 384.13,154.42 382.36,159.74" fill="#0d9488" stroke="none"/>
+  <line x1="260.00" y1="500.00" x2="260.00" y2="116.00" stroke="#fecaca" stroke-width="6.00"/>
+  <line x1="260.00" y1="273.44" x2="260.00" y2="226.68" stroke="#dc2626" stroke-width="2.40"/>
+  <polygon points="260.00,219.68 264.00,226.68 256.00,226.68" fill="#dc2626" stroke="none"/>
+  <line x1="260.00" y1="204.32" x2="260.00" y2="146.04" stroke="#dc2626" stroke-width="2.40"/>
+  <polygon points="260.00,139.04 264.00,146.04 256.00,146.04" fill="#dc2626" stroke="none"/>
+  <line x1="260.00" y1="342.56" x2="260.00" y2="389.32" stroke="#dc2626" stroke-width="2.40"/>
+  <polygon points="260.00,396.32 256.00,389.32 264.00,389.32" fill="#dc2626" stroke="none"/>
+  <line x1="260.00" y1="411.68" x2="260.00" y2="469.96" stroke="#dc2626" stroke-width="2.40"/>
+  <polygon points="260.00,476.96 256.00,469.96 264.00,469.96" fill="#dc2626" stroke="none"/>
+  <circle cx="260.00" cy="212.00" r="5.50" fill="#dc2626" stroke="#ffffff" stroke-width="1.50"/>
+  <text x="272.00" y="216.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#b91c1c" text-anchor="start">x* = (0, 1/2)</text>
+  <rect x="514.00" y="72.00" width="428.00" height="470.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="514.00" y="72.00" width="428.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="526.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Filippov Convex Hull at x* = (0, 1/2) &amp; Crease Decomposition</text>
+  <line x1="570.29" y1="293.00" x2="889.71" y2="293.00" stroke="#cbd5e1" stroke-width="1.20"/>
+  <line x1="730.00" y1="323.00" x2="730.00" y2="143.00" stroke="#fca5a5" stroke-width="2.00" stroke-dasharray="4,3"/>
+  <line x1="607.14" y1="218.00" x2="852.86" y2="218.00" stroke="#6366f1" stroke-width="1.80" stroke-dasharray="5,3"/>
+  <line x1="730.00" y1="293.00" x2="612.69" y2="221.39" stroke="#0d9488" stroke-width="2.00"/>
+  <polygon points="607.14,218.00 614.57,218.31 610.82,224.46" fill="#0d9488" stroke="none"/>
+  <line x1="730.00" y1="293.00" x2="847.31" y2="221.39" stroke="#0d9488" stroke-width="2.00"/>
+  <polygon points="852.86,218.00 849.18,224.46 845.43,218.31" fill="#0d9488" stroke="none"/>
+  <line x1="730.00" y1="293.00" x2="730.00" y2="225.50" stroke="#dc2626" stroke-width="2.60"/>
+  <polygon points="730.00,218.00 734.20,225.50 725.80,225.50" fill="#dc2626" stroke="none"/>
+  <text x="607.14" y="208.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#0f766e" text-anchor="middle">f_Q1 = (-1, 1/2)</text>
+  <text x="852.86" y="208.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#0f766e" text-anchor="middle">f_Q2 = (+1, 1/2)</text>
+  <text x="730.00" y="192.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#b91c1c" text-anchor="middle">f_S = (0, +1/2)</text>
+  <text x="730.00" y="148.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="600" fill="#4f46e5" text-anchor="middle">alpha* = (1/2, 1/2)</text>
+  <text x="730.00" y="311.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="400" fill="#334155" text-anchor="middle">x* = (0, 1/2) on crease x_1 = 0</text>
+  <rect x="534.00" y="358.00" width="388.00" height="166.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="548.00" y="382.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.0" font-weight="700" fill="#0f172a" text-anchor="start">Exact Crease Decomposition Identity:</text>
+  <text x="548.00" y="404.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="400" fill="#0f766e" text-anchor="start">1. Q1 interior: grad V_1 . f_Q1 = (1,1).(-1, 1/2) = -1/2 &lt; 0</text>
+  <text x="548.00" y="424.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="400" fill="#0f766e" text-anchor="start">2. Q2 interior: grad V_2 . f_Q2 = (-1,1).(1, 1/2) = -1/2 &lt; 0</text>
+  <text x="548.00" y="446.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="400" fill="#334155" text-anchor="start">3. Kink jump gamma_12 = +2 &gt; 0 pushes inward from both sides:</text>
+  <text x="548.00" y="468.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#b91c1c" text-anchor="start">   D^+_{f_S} V(x*) = -1/2 + (1/2)*gamma_12*nu_1 = +1/2 &gt; 0!</text>
+  <text x="548.00" y="494.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="400" fill="#dc2626" text-anchor="start">Interior-only verifiers: UNSOUND (miss measure-zero crease)</text>
+  <text x="548.00" y="514.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#059669" text-anchor="start">Exact-Z/Q Filippov Audit: FALSIFIED with rational witness</text>
+</svg>

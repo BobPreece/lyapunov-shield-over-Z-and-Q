@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <rect x="2.00" y="2.00" width="956.00" height="556.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.50" rx="8.0"/>
+  <rect x="2.00" y="2.00" width="956.00" height="58.00" fill="#0f172a" stroke="none" rx="8.0"/>
+  <rect x="2.00" y="46.00" width="956.00" height="14.00" fill="#0f172a" stroke="none"/>
+  <text x="22.00" y="27.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#f8fafc" text-anchor="start">04. Online Exact-Q Runtime CBF-LP Safety Shield: 4D Double Integrator &amp; 3D Dubins</text>
+  <text x="22.00" y="48.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.0" font-weight="400" fill="#94a3b8" text-anchor="start">Zero-trust Manhattan min ||u - u_nom||_1 Bareiss LP filter preventing obstacle crashes (&lt; 1.0 ms/step)</text>
+  <rect x="18.00" y="72.00" width="452.00" height="266.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="18.00" y="72.00" width="452.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="30.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">4D Double Integrator Stopping Space (q_x, q_y) = p + 2v</text>
+  <line x1="130.43" y1="308.00" x2="130.43" y2="112.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="130.43" y="324.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">-0.5</text>
+  <line x1="213.48" y1="308.00" x2="213.48" y2="112.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="213.48" y="324.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">0.0</text>
+  <line x1="296.52" y1="308.00" x2="296.52" y2="112.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="296.52" y="324.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">0.5</text>
+  <line x1="379.57" y1="308.00" x2="379.57" y2="112.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="379.57" y="324.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">1.0</text>
+  <line x1="64.00" y1="294.00" x2="446.00" y2="294.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="56.00" y="297.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">-0.5</text>
+  <line x1="64.00" y1="224.00" x2="446.00" y2="224.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="56.00" y="227.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">0.0</text>
+  <line x1="64.00" y1="154.00" x2="446.00" y2="154.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="56.00" y="157.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">0.5</text>
+  <polygon points="296.52,224.00 213.48,154.00 130.43,224.00 213.48,294.00" fill="#fee2e2" stroke="#dc2626" stroke-width="1.80" fill-opacity="0.85"/>
+  <text x="213.48" y="228.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#991b1b" text-anchor="middle">Unsafe</text>
+  <polyline points="130.43,189.00 171.96,192.50 212.65,196.00 252.34,199.48 290.89,202.93 328.14,206.33 363.97,209.66 398.27,212.92 430.94,216.08 461.87,219.15 491.01,222.09 518.27,224.92 543.61,227.61 567.00,230.17 588.39,232.57 607.78,234.83 625.15,236.93 640.51,238.87" fill="none" stroke="#dc2626" stroke-width="2.00" stroke-dasharray="4,3"/>
+  <polyline points="130.43,189.00 155.35,171.50 164.48,166.95 188.57,149.48 211.90,132.37 234.56,115.56 256.62,119.71 278.13,124.19 299.15,128.96 319.74,134.00 339.92,139.26 359.74,144.71 378.34,150.31 395.07,156.03 410.13,161.82 423.68,167.67 435.88,173.54 446.85,179.40" fill="none" stroke="#0d9488" stroke-width="2.40"/>
+  <circle cx="130.43" cy="189.00" r="3.00" fill="#0d9488" stroke="#ffffff" stroke-width="0.80"/>
+  <circle cx="188.57" cy="149.48" r="3.00" fill="#0d9488" stroke="#ffffff" stroke-width="0.80"/>
+  <circle cx="256.62" cy="119.71" r="3.00" fill="#0d9488" stroke="#ffffff" stroke-width="0.80"/>
+  <circle cx="319.74" cy="134.00" r="3.00" fill="#0d9488" stroke="#ffffff" stroke-width="0.80"/>
+  <circle cx="378.34" cy="150.31" r="3.00" fill="#0d9488" stroke="#ffffff" stroke-width="0.80"/>
+  <circle cx="423.68" cy="167.67" r="3.00" fill="#0d9488" stroke="#ffffff" stroke-width="0.80"/>
+  <text x="310.00" y="134.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#0f766e" text-anchor="start">Shielded (Exact-Q CBF-LP)</text>
+  <text x="310.00" y="294.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#b91c1c" text-anchor="start">Unshielded (crashes into diamond)</text>
+  <rect x="488.00" y="72.00" width="454.00" height="266.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="488.00" y="72.00" width="454.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="500.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">3D 3-Sector Dubins Reflex Obstacle Avoidance (p_x, p_y)</text>
+  <line x1="534.00" y1="308.00" x2="534.00" y2="112.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="534.00" y="324.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">-2.0</text>
+  <line x1="621.27" y1="308.00" x2="621.27" y2="112.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="621.27" y="324.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">-1.5</text>
+  <line x1="708.55" y1="308.00" x2="708.55" y2="112.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="708.55" y="324.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">-1.0</text>
+  <line x1="795.82" y1="308.00" x2="795.82" y2="112.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="795.82" y="324.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">-0.5</text>
+  <line x1="883.09" y1="308.00" x2="883.09" y2="112.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="883.09" y="324.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">0.0</text>
+  <polygon points="534.00,194.41 551.45,196.64 568.91,198.86 586.36,201.09 603.82,203.32 621.27,205.55 638.73,207.77 656.18,210.00 673.64,212.23 691.09,214.45 708.55,216.68 726.00,216.68 743.45,216.68 760.91,216.68 778.36,216.68 795.82,216.68 813.27,216.68 830.73,216.68 848.18,216.68 865.64,216.68 883.09,216.68 900.55,216.68 918.00,216.68 918.00,308.00 534.00,308.00" fill="#fee2e2" stroke="#dc2626" stroke-width="1.50" fill-opacity="0.75"/>
+  <polyline points="577.64,161.00 595.09,163.23 611.53,167.24 626.22,173.03 639.16,180.60 656.62,189.95 674.07,201.09 691.53,214.01 708.98,228.71 726.44,245.19 743.89,263.45 761.35,283.50 778.80,305.33 796.25,308.00 813.71,308.00 831.16,308.00" fill="none" stroke="#dc2626" stroke-width="2.00" stroke-dasharray="4,3"/>
+  <polyline points="577.64,161.00 595.09,163.23 611.75,167.01 627.50,171.72 642.81,176.88 657.97,182.19 673.16,187.47 688.50,192.60 704.07,197.49 719.88,202.14 735.96,206.52 752.74,210.17 770.12,213.22 787.58,215.75 805.03,217.85 822.49,219.60" fill="none" stroke="#2563eb" stroke-width="2.40"/>
+  <text x="725.00" y="136.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#1d4ed8" text-anchor="start">Shielded Dubins trajectory</text>
+  <text x="725.00" y="294.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#991b1b" text-anchor="start">Reflex obstacle region h(x) &lt; 0</text>
+  <rect x="18.00" y="352.00" width="924.00" height="190.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="18.00" y="352.00" width="924.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="30.00" y="370.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Exact Rational Shield Intervention ||u_safe - u_nom||_1 &amp; Barrier Margin h_diam(x_t) &gt;= 0</text>
+  <line x1="68.00" y1="510.00" x2="68.00" y2="392.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="68.00" y="525.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">t=0</text>
+  <line x1="216.94" y1="510.00" x2="216.94" y2="392.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="216.94" y="525.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">t=3</text>
+  <line x1="365.88" y1="510.00" x2="365.88" y2="392.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="365.88" y="525.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">t=6</text>
+  <line x1="514.82" y1="510.00" x2="514.82" y2="392.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="514.82" y="525.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">t=9</text>
+  <line x1="663.76" y1="510.00" x2="663.76" y2="392.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="663.76" y="525.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">t=12</text>
+  <line x1="812.71" y1="510.00" x2="812.71" y2="392.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="812.71" y="525.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">t=15</text>
+  <line x1="68.00" y1="510.00" x2="912.00" y2="510.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="58.00" y="513.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">0.0</text>
+  <line x1="68.00" y1="473.12" x2="912.00" y2="473.12" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="58.00" y="476.12" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">0.5</text>
+  <line x1="68.00" y1="436.25" x2="912.00" y2="436.25" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="58.00" y="439.25" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">1.0</text>
+  <line x1="68.00" y1="399.38" x2="912.00" y2="399.38" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="58.00" y="402.38" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">1.5</text>
+  <polyline points="68.00,417.81 117.65,418.73 167.29,419.70 216.94,420.70 266.59,421.73 316.24,477.22 365.88,478.49 415.53,480.00 465.18,481.73 514.82,483.65 564.47,485.75 614.12,485.98 663.76,484.90 713.41,484.28 763.06,484.07 812.71,484.20 862.35,484.63 912.00,485.30" fill="none" stroke="#4f46e5" stroke-width="2.20"/>
+  <polyline points="68.00,491.56 117.65,493.41 167.29,495.07 216.94,496.56 266.59,497.90 316.24,480.39 365.88,472.78 415.53,465.58 465.18,458.77 514.82,452.28 564.47,446.09 614.12,440.16 663.76,434.85 713.41,430.43 763.06,426.80 812.71,423.86 862.35,421.54 912.00,419.75" fill="none" stroke="#0d9488" stroke-width="2.20"/>
+  <text x="140.00" y="412.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#4338ca" text-anchor="start">||u_safe - u_nom||_1 (Manhattan intervention)</text>
+  <text x="560.00" y="412.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#0f766e" text-anchor="start">h_diam(x_t) &gt;= 0 (0 breaches across rollout)</text>
+</svg>

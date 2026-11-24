@@ -1,0 +1,181 @@
+{
+  "kind": "lyapunov_continuous",
+  "metadata": {},
+  "payload": {
+    "alpha_1": [
+      1,
+      2
+    ],
+    "boundary_certs": [],
+    "coercivity_certs": [],
+    "counterexample": {
+      "reason": "Uphill/non-decaying Filippov sliding on switching crease",
+      "residual_violation": [
+        3,
+        4
+      ],
+      "v_at_x": [
+        1,
+        2
+      ],
+      "v_next_or_deriv": [
+        1,
+        2
+      ],
+      "x_witness": [
+        [
+          0,
+          1
+        ],
+        2
+      ]
+    },
+    "ct_bab_pruned_cells": 0,
+    "decay_certs": [],
+    "epsilon": [
+      1,
+      4
+    ],
+    "filippov_audit": {
+      "certificates": [],
+      "codim1_creases": 1,
+      "codim_k_creases": 0,
+      "counterexample": {
+        "alpha_weights": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "cell_ids": [
+          0,
+          1
+        ],
+        "codim": 1,
+        "dini_deriv": [
+          1,
+          2
+        ],
+        "f_sliding": [
+          [
+            0,
+            1
+          ],
+          2
+        ],
+        "face_id": 0,
+        "gamma_kink": [
+          2,
+          1
+        ],
+        "normals": [
+          [
+            -1,
+            0
+          ]
+        ],
+        "nu_normals": [
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "rhss": [
+          0
+        ],
+        "v_at_x": [
+          1,
+          2
+        ],
+        "x_star": [
+          [
+            0,
+            1
+          ],
+          2
+        ]
+      },
+      "creases_audited": 1,
+      "message": "Uphill/non-decaying Filippov sliding detected on codim-1 crease cells=(0, 1) at x*=((0, 1), 2)",
+      "verdict": "FALSIFIED_COUNTEREXAMPLE"
+    },
+    "filippov_witness": {
+      "alpha_weights": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cell_ids": [
+        0,
+        1
+      ],
+      "codim": 1,
+      "dini_deriv": [
+        1,
+        2
+      ],
+      "f_sliding": [
+        [
+          0,
+          1
+        ],
+        2
+      ],
+      "face_id": 0,
+      "gamma_kink": [
+        2,
+        1
+      ],
+      "normals": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "nu_normals": [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "rhss": [
+        0
+      ],
+      "v_at_x": [
+        1,
+        2
+      ],
+      "x_star": [
+        [
+          0,
+          1
+        ],
+        2
+      ]
+    },
+    "is_discrete": false,
+    "message": "Uphill/non-decaying Filippov sliding detected on codim-1 crease cells=(0, 1) at x*=((0, 1), 2)",
+    "rho_star": null,
+    "shards_certified": 0,
+    "verdict": "FALSIFIED_COUNTEREXAMPLE"
+  },
+  "schema_version": "1.0.0",
+  "sha256": "f6fd74fcbe4c7febb2097772c4e99c725ba2f35b87945ce3e2c569e4fef30288"
+}

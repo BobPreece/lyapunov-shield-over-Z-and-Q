@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <rect x="2.00" y="2.00" width="956.00" height="556.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.50" rx="8.0"/>
+  <rect x="2.00" y="2.00" width="956.00" height="58.00" fill="#0f172a" stroke="none" rx="8.0"/>
+  <rect x="2.00" y="46.00" width="956.00" height="14.00" fill="#0f172a" stroke="none"/>
+  <text x="22.00" y="27.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#f8fafc" text-anchor="start">10. Grand Control Verification Tournament Scorecard (v2.0.0)</text>
+  <text x="22.00" y="48.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.0" font-weight="400" fill="#94a3b8" text-anchor="start">1,050 Deterministic Instances | 1,050/1,050 (100.0%) Independently Verified | 9/9 Control Traps Defended | 13.18s Total</text>
+  <rect x="18.00" y="72.00" width="220.00" height="74.00" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <text x="32.00" y="92.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#334155" text-anchor="start">Total Instances</text>
+  <text x="32.00" y="120.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="20.0" font-weight="700" fill="#0f172a" text-anchor="start">1,050</text>
+  <text x="32.00" y="138.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="start">1D-6D Seeded Suite</text>
+  <rect x="252.00" y="72.00" width="220.00" height="74.00" fill="#d1fae5" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <text x="266.00" y="92.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#334155" text-anchor="start">Proofs Verified</text>
+  <text x="266.00" y="120.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="20.0" font-weight="700" fill="#065f46" text-anchor="start">100.0%</text>
+  <text x="266.00" y="138.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="start">629 Cert / 371 Wit</text>
+  <rect x="486.00" y="72.00" width="220.00" height="74.00" fill="#dbeafe" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <text x="500.00" y="92.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#334155" text-anchor="start">Traps Defended</text>
+  <text x="500.00" y="120.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="20.0" font-weight="700" fill="#1e40af" text-anchor="start">9 / 9</text>
+  <text x="500.00" y="138.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="start">Zero False Certifications</text>
+  <rect x="720.00" y="72.00" width="220.00" height="74.00" fill="#fef3c7" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <text x="734.00" y="92.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#334155" text-anchor="start">Wall-Clock Time</text>
+  <text x="734.00" y="120.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="20.0" font-weight="700" fill="#92400e" text-anchor="start">13.18s</text>
+  <text x="734.00" y="138.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="start">Median 3.36 ms/inst</text>
+  <rect x="18.00" y="158.00" width="504.00" height="218.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="18.00" y="158.00" width="504.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="30.00" y="176.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Verdict Breakdown Across All 6 Tournament Families</text>
+  <text x="30.00" y="207.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="600" fill="#1e293b" text-anchor="start">1. Lyapunov &amp; ROA (1D-6D)</text>
+  <rect x="200.00" y="196.00" width="189.00" height="15.00" fill="#10b981" stroke="none"/>
+  <rect x="389.00" y="196.00" width="51.00" height="15.00" fill="#ef4444" stroke="none"/>
+  <text x="448.00" y="207.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#334155" text-anchor="start">240</text>
+  <text x="30.00" y="235.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="600" fill="#1e293b" text-anchor="start">2. Filippov Creases</text>
+  <rect x="200.00" y="224.00" width="125.00" height="15.00" fill="#10b981" stroke="none"/>
+  <rect x="325.00" y="224.00" width="55.00" height="15.00" fill="#ef4444" stroke="none"/>
+  <text x="388.00" y="235.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#334155" text-anchor="start">180</text>
+  <text x="30.00" y="263.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="600" fill="#1e293b" text-anchor="start">3. Bouligand NCBF</text>
+  <rect x="200.00" y="252.00" width="105.00" height="15.00" fill="#10b981" stroke="none"/>
+  <rect x="305.00" y="252.00" width="75.00" height="15.00" fill="#ef4444" stroke="none"/>
+  <text x="388.00" y="263.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#334155" text-anchor="start">180</text>
+  <text x="30.00" y="291.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="600" fill="#1e293b" text-anchor="start">4. Orbits &amp; Fixed Pts</text>
+  <rect x="200.00" y="280.00" width="65.00" height="15.00" fill="#10b981" stroke="none"/>
+  <rect x="265.00" y="280.00" width="95.00" height="15.00" fill="#ef4444" stroke="none"/>
+  <text x="368.00" y="291.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#334155" text-anchor="start">160</text>
+  <text x="30.00" y="319.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="600" fill="#1e293b" text-anchor="start">5. Lattice Anchor Sweeps</text>
+  <rect x="200.00" y="308.00" width="100.00" height="15.00" fill="#10b981" stroke="none"/>
+  <rect x="300.00" y="308.00" width="75.00" height="15.00" fill="#ef4444" stroke="none"/>
+  <text x="383.00" y="319.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#334155" text-anchor="start">175</text>
+  <text x="30.00" y="347.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="600" fill="#1e293b" text-anchor="start">6. High-Dim XP &amp; Guards</text>
+  <rect x="200.00" y="336.00" width="45.00" height="15.00" fill="#10b981" stroke="none"/>
+  <rect x="245.00" y="336.00" width="20.00" height="15.00" fill="#ef4444" stroke="none"/>
+  <rect x="265.00" y="336.00" width="50.00" height="15.00" fill="#f59e0b" stroke="none"/>
+  <text x="323.00" y="347.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#334155" text-anchor="start">115</text>
+  <rect x="536.00" y="158.00" width="406.00" height="218.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="536.00" y="158.00" width="406.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="548.00" y="176.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Instance Solve-Time Histogram (ms)</text>
+  <rect x="556.00" y="325.97" width="36.00" height="10.03" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.00" rx="2.0"/>
+  <text x="574.00" y="319.97" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.8" font-weight="700" fill="#1e3a8a" text-anchor="middle">40</text>
+  <text x="574.00" y="353.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#475569" text-anchor="middle">&lt;0.5</text>
+  <rect x="609.00" y="293.37" width="36.00" height="42.63" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.00" rx="2.0"/>
+  <text x="627.00" y="287.37" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.8" font-weight="700" fill="#1e3a8a" text-anchor="middle">170</text>
+  <text x="627.00" y="353.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#475569" text-anchor="middle">0.5-1</text>
+  <rect x="662.00" y="317.44" width="36.00" height="18.56" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.00" rx="2.0"/>
+  <text x="680.00" y="311.44" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.8" font-weight="700" fill="#1e3a8a" text-anchor="middle">74</text>
+  <text x="680.00" y="353.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#475569" text-anchor="middle">1-2</text>
+  <rect x="715.00" y="228.17" width="36.00" height="107.83" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.00" rx="2.0"/>
+  <text x="733.00" y="222.17" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.8" font-weight="700" fill="#1e3a8a" text-anchor="middle">430</text>
+  <text x="733.00" y="353.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#475569" text-anchor="middle">2-5</text>
+  <rect x="768.00" y="311.43" width="36.00" height="24.57" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.00" rx="2.0"/>
+  <text x="786.00" y="305.43" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.8" font-weight="700" fill="#1e3a8a" text-anchor="middle">98</text>
+  <text x="786.00" y="353.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#475569" text-anchor="middle">5-10</text>
+  <rect x="821.00" y="317.44" width="36.00" height="18.56" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.00" rx="2.0"/>
+  <text x="839.00" y="311.44" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.8" font-weight="700" fill="#1e3a8a" text-anchor="middle">74</text>
+  <text x="839.00" y="353.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#475569" text-anchor="middle">10-25</text>
+  <rect x="874.00" y="294.88" width="36.00" height="41.12" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.00" rx="2.0"/>
+  <text x="892.00" y="288.88" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.8" font-weight="700" fill="#1e3a8a" text-anchor="middle">164</text>
+  <text x="892.00" y="353.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#475569" text-anchor="middle">&gt;=25</text>
+  <text x="739.00" y="369.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.8" font-weight="400" fill="#334155" text-anchor="middle">Latency bucket (ms) — Green: Certified | Red: Falsified | Amber: Budget Guard</text>
+  <rect x="18.00" y="388.00" width="924.00" height="156.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="18.00" y="388.00" width="924.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="30.00" y="406.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">9 / 9 Adversarial Control Traps Defended (Zero-Trust Pure-Z/Q Audit)</text>
+  <rect x="32.00" y="422.00" width="290.00" height="31.00" fill="#f0fdf4" stroke="#86efac" stroke-width="1.00" rx="4.0"/>
+  <text x="42.00" y="442.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#14532d" text-anchor="start">[PASS] T1: Filippov Uphill</text>
+  <text x="312.00" y="442.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#166534" text-anchor="end">10.4ms</text>
+  <rect x="334.00" y="422.00" width="290.00" height="31.00" fill="#f0fdf4" stroke="#86efac" stroke-width="1.00" rx="4.0"/>
+  <text x="344.00" y="442.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#14532d" text-anchor="start">[PASS] T2: Heaviside Escape</text>
+  <text x="614.00" y="442.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#166534" text-anchor="end">2.9ms</text>
+  <rect x="636.00" y="422.00" width="290.00" height="31.00" fill="#f0fdf4" stroke="#86efac" stroke-width="1.00" rx="4.0"/>
+  <text x="646.00" y="442.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#14532d" text-anchor="start">[PASS] T3: Period-2/3 Orbits</text>
+  <text x="916.00" y="442.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#166534" text-anchor="end">63.3ms</text>
+  <rect x="32.00" y="460.00" width="290.00" height="31.00" fill="#f0fdf4" stroke="#86efac" stroke-width="1.00" rx="4.0"/>
+  <text x="42.00" y="480.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#14532d" text-anchor="start">[PASS] T4: Concave Deadlock</text>
+  <text x="312.00" y="480.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#166534" text-anchor="end">89.8ms</text>
+  <rect x="334.00" y="460.00" width="290.00" height="31.00" fill="#f0fdf4" stroke="#86efac" stroke-width="1.00" rx="4.0"/>
+  <text x="344.00" y="480.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#14532d" text-anchor="start">[PASS] T5: 5e-8 Leak &amp; Sliver</text>
+  <text x="614.00" y="480.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#166534" text-anchor="end">0.3ms</text>
+  <rect x="636.00" y="460.00" width="290.00" height="31.00" fill="#f0fdf4" stroke="#86efac" stroke-width="1.00" rx="4.0"/>
+  <text x="646.00" y="480.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#14532d" text-anchor="start">[PASS] T6: Rounding Anchor</text>
+  <text x="916.00" y="480.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#166534" text-anchor="end">3.6ms</text>
+  <rect x="32.00" y="498.00" width="290.00" height="31.00" fill="#f0fdf4" stroke="#86efac" stroke-width="1.00" rx="4.0"/>
+  <text x="42.00" y="518.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#14532d" text-anchor="start">[PASS] T7: 1024-&gt;8 Shards</text>
+  <text x="312.00" y="518.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#166534" text-anchor="end">80.2ms</text>
+  <rect x="334.00" y="498.00" width="290.00" height="31.00" fill="#f0fdf4" stroke="#86efac" stroke-width="1.00" rx="4.0"/>
+  <text x="344.00" y="518.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#14532d" text-anchor="start">[PASS] T8: 3D 12-Plane Cone</text>
+  <text x="614.00" y="518.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#166534" text-anchor="end">697.2ms</text>
+  <rect x="636.00" y="498.00" width="290.00" height="31.00" fill="#f0fdf4" stroke="#86efac" stroke-width="1.00" rx="4.0"/>
+  <text x="646.00" y="518.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#14532d" text-anchor="start">[PASS] T9: 6D/64n XP Guard</text>
+  <text x="916.00" y="518.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#166534" text-anchor="end">371.5ms</text>
+</svg>

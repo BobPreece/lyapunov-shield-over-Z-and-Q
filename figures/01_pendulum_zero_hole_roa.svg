@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <rect x="2.00" y="2.00" width="956.00" height="556.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.50" rx="8.0"/>
+  <rect x="2.00" y="2.00" width="956.00" height="58.00" fill="#0f172a" stroke="none" rx="8.0"/>
+  <rect x="2.00" y="46.00" width="956.00" height="14.00" fill="#0f172a" stroke="none"/>
+  <text x="22.00" y="27.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#f8fafc" text-anchor="start">01. Sector-Bounded Inverted Pendulum: Zero-Hole Polyhedral ROA vs. dReal Origin Hole</text>
+  <text x="22.00" y="48.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.0" font-weight="400" fill="#94a3b8" text-anchor="start">Live Exact-Z/Q Certification: V(theta, omega) = |2*theta + omega| + |theta + omega|, alpha_1 = 1/3, rho* = 1, 12 certified shards</text>
+  <rect x="18.00" y="72.00" width="470.00" height="470.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="18.00" y="72.00" width="470.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="30.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Certified Maximal Polyhedral ROA {V(x) &lt;= rho*} on [-1, 1] x [-2, 2]</text>
+  <line x1="62.00" y1="490.00" x2="62.00" y2="114.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="62.00" y="506.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">-1.0</text>
+  <line x1="161.00" y1="490.00" x2="161.00" y2="114.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="161.00" y="506.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">-0.5</text>
+  <line x1="260.00" y1="490.00" x2="260.00" y2="114.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="260.00" y="506.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.0</text>
+  <line x1="359.00" y1="490.00" x2="359.00" y2="114.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="359.00" y="506.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.5</text>
+  <line x1="458.00" y1="490.00" x2="458.00" y2="114.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="458.00" y="506.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">1.0</text>
+  <line x1="62.00" y1="490.00" x2="458.00" y2="490.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="54.00" y="493.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">-2.0</text>
+  <line x1="62.00" y1="396.00" x2="458.00" y2="396.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="54.00" y="399.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">-1.0</text>
+  <line x1="62.00" y1="302.00" x2="458.00" y2="302.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="54.00" y="305.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">0.0</text>
+  <line x1="62.00" y1="208.00" x2="458.00" y2="208.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="54.00" y="211.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">1.0</text>
+  <line x1="62.00" y1="114.00" x2="458.00" y2="114.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="54.00" y="117.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">2.0</text>
+  <text x="260.00" y="526.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#334155" text-anchor="middle">Angle theta (rad)</text>
+  <text x="26.00" y="265.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="600" fill="#334155" text-anchor="start">omega</text>
+  <line x1="62.00" y1="231.50" x2="425.00" y2="490.00" stroke="#d97706" stroke-width="1.50" stroke-dasharray="5,4"/>
+  <line x1="458.00" y1="372.50" x2="95.00" y2="114.00" stroke="#d97706" stroke-width="1.50" stroke-dasharray="5,4"/>
+  <line x1="62.00" y1="114.00" x2="458.00" y2="490.00" stroke="#94a3b8" stroke-width="1.00" stroke-dasharray="3,3"/>
+  <line x1="62.00" y1="208.00" x2="458.00" y2="396.00" stroke="#94a3b8" stroke-width="1.00" stroke-dasharray="3,3"/>
+  <polygon points="458.00,396.00 62.00,114.00 62.00,208.00 458.00,490.00" fill="#99f6e4" stroke="#0d9488" stroke-width="2.00" fill-opacity="0.36"/>
+  <polygon points="388.70,363.10 131.30,179.80 131.30,240.90 388.70,424.20" fill="none" stroke="#0f766e" stroke-width="1.10"/>
+  <polygon points="329.30,334.90 190.70,236.20 190.70,269.10 329.30,367.80" fill="none" stroke="#115e59" stroke-width="1.10"/>
+  <line x1="111.50" y1="433.60" x2="100.58" y2="425.13" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="97.02,422.38 102.11,423.16 99.04,427.11" fill="#475569" stroke="none"/>
+  <line x1="111.50" y1="358.40" x2="104.03" y2="349.63" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="101.12,346.20 105.94,348.00 102.13,351.25" fill="#475569" stroke="none"/>
+  <line x1="111.50" y1="245.60" x2="127.83" y2="247.73" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="132.29,248.31 127.50,250.21 128.15,245.25" fill="#475569" stroke="none"/>
+  <line x1="111.50" y1="170.40" x2="121.39" y2="179.00" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="124.78,181.95 119.74,180.88 123.03,177.11" fill="#475569" stroke="none"/>
+  <line x1="190.70" y1="433.60" x2="180.98" y2="424.98" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="177.61,422.00 182.63,423.11 179.32,426.86" fill="#475569" stroke="none"/>
+  <line x1="190.70" y1="358.40" x2="184.56" y2="349.60" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="181.99,345.91 186.62,348.17 182.51,351.03" fill="#475569" stroke="none"/>
+  <line x1="190.70" y1="245.60" x2="201.10" y2="254.14" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="204.58,256.99 199.52,256.07 202.69,252.20" fill="#475569" stroke="none"/>
+  <line x1="190.70" y1="170.40" x2="198.79" y2="179.15" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="201.85,182.45 196.96,180.84 200.63,177.45" fill="#475569" stroke="none"/>
+  <line x1="329.30" y1="433.60" x2="321.21" y2="424.85" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="318.15,421.55 323.04,423.16 319.37,426.55" fill="#475569" stroke="none"/>
+  <line x1="329.30" y1="358.40" x2="318.90" y2="349.86" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="315.42,347.01 320.48,347.93 317.31,351.80" fill="#475569" stroke="none"/>
+  <line x1="329.30" y1="245.60" x2="335.44" y2="254.40" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="338.01,258.09 333.38,255.83 337.49,252.97" fill="#475569" stroke="none"/>
+  <line x1="329.30" y1="170.40" x2="339.02" y2="179.02" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="342.39,182.00 337.37,180.89 340.68,177.14" fill="#475569" stroke="none"/>
+  <line x1="408.50" y1="433.60" x2="398.61" y2="425.00" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="395.22,422.05 400.26,423.12 396.97,426.89" fill="#475569" stroke="none"/>
+  <line x1="408.50" y1="358.40" x2="392.17" y2="356.27" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="387.71,355.69 392.50,353.79 391.85,358.75" fill="#475569" stroke="none"/>
+  <line x1="408.50" y1="245.60" x2="415.97" y2="254.37" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="418.88,257.80 414.06,256.00 417.87,252.75" fill="#475569" stroke="none"/>
+  <line x1="408.50" y1="170.40" x2="419.42" y2="178.87" stroke="#475569" stroke-width="1.10"/>
+  <polygon points="422.98,181.62 417.89,180.84 420.96,176.89" fill="#475569" stroke="none"/>
+  <circle cx="260.00" cy="302.00" r="4.50" fill="#059669" stroke="#0f172a" stroke-width="1.50"/>
+  <text x="320.00" y="134.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#0f766e" text-anchor="start">Certified ROA V &lt;= 1</text>
+  <text x="80.00" y="476.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="600" fill="#b45309" text-anchor="start">|u| &lt;= 3/2 torque sat.</text>
+  <rect x="504.00" y="72.00" width="438.00" height="224.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="504.00" y="72.00" width="438.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="516.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Zero-Hole Homogeneous Farkas Cone vs. dReal eps-Ball Exclusion</text>
+  <g transform="translate(504.00,72.00)">
+  <rect x="18.00" y="40.00" width="190.00" height="166.00" fill="#fff1f2" stroke="#fecdd3" stroke-width="1.00" rx="5.0"/>
+  <text x="113.00" y="58.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#9f1239" text-anchor="middle">dReal / Sampled Verifiers</text>
+  <polygon points="113.00,72.00 178.00,125.00 113.00,178.00 48.00,125.00" fill="#dcfce7" stroke="#16a34a" stroke-width="1.40"/>
+  <circle cx="113.00" cy="125.00" r="28.00" fill="#fee2e2" stroke="#dc2626" stroke-width="1.80"/>
+  <text x="113.00" y="128.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#b91c1c" text-anchor="middle">Hole B_eps(0)</text>
+  <text x="113.00" y="196.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#881337" text-anchor="middle">Unverified limit-cycle blindspot</text>
+  <rect x="228.00" y="40.00" width="192.00" height="166.00" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.00" rx="5.0"/>
+  <text x="324.00" y="58.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#115e59" text-anchor="middle">Exact-Z/Q Farkas Cones (Ours)</text>
+  <polygon points="324.00,72.00 389.00,125.00 324.00,178.00 259.00,125.00" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.60"/>
+  <line x1="259.00" y1="125.00" x2="389.00" y2="125.00" stroke="#0d9488" stroke-width="1.10" stroke-dasharray="3,2"/>
+  <line x1="324.00" y1="72.00" x2="324.00" y2="178.00" stroke="#0d9488" stroke-width="1.10" stroke-dasharray="3,2"/>
+  <circle cx="324.00" cy="125.00" r="3.80" fill="#059669" stroke="#0f172a" stroke-width="1.40"/>
+  <text x="324.00" y="152.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#0f766e" text-anchor="middle">0.000 Hole</text>
+  <text x="324.00" y="196.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#115e59" text-anchor="middle">2n homogeneous Farkas duals</text>
+  </g>
+  <rect x="504.00" y="310.00" width="438.00" height="232.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="504.00" y="310.00" width="438.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="516.00" y="328.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Exact Rational Sector Inclusion: sin(theta) in [(7/11)*theta, theta]</text>
+  <line x1="552.00" y1="504.00" x2="552.00" y2="354.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="552.00" y="520.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.00</text>
+  <line x1="643.50" y1="504.00" x2="643.50" y2="354.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="643.50" y="520.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.25</text>
+  <line x1="735.00" y1="504.00" x2="735.00" y2="354.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="735.00" y="520.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.50</text>
+  <line x1="826.50" y1="504.00" x2="826.50" y2="354.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="826.50" y="520.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.75</text>
+  <line x1="918.00" y1="504.00" x2="918.00" y2="354.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="918.00" y="520.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">1.00</text>
+  <line x1="552.00" y1="504.00" x2="918.00" y2="504.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="544.00" y="507.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">0.0</text>
+  <line x1="552.00" y1="432.57" x2="918.00" y2="432.57" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="544.00" y="435.57" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">0.5</text>
+  <line x1="552.00" y1="361.14" x2="918.00" y2="361.14" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="544.00" y="364.14" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">1.0</text>
+  <polygon points="552.00,504.00 918.00,361.14 918.00,413.09" fill="#dbeafe" stroke="none" fill-opacity="0.65"/>
+  <line x1="552.00" y1="504.00" x2="918.00" y2="361.14" stroke="#2563eb" stroke-width="1.60" stroke-dasharray="4,3"/>
+  <line x1="552.00" y1="504.00" x2="918.00" y2="413.09" stroke="#0d9488" stroke-width="1.60" stroke-dasharray="4,3"/>
+  <polyline points="552.00,504.00 564.20,499.24 576.40,494.48 588.60,489.74 600.80,485.01 613.00,480.30 625.20,475.62 637.40,470.97 649.60,466.35 661.80,461.78 674.00,457.26 686.20,452.78 698.40,448.37 710.60,444.01 722.80,439.73 735.00,435.51 747.20,431.37 759.40,427.31 771.60,423.34 783.80,419.45 796.00,415.66 808.20,411.97 820.40,408.38 832.60,404.89 844.80,401.52 857.00,398.26 869.20,395.12 881.40,392.10 893.60,389.20 905.80,386.43 918.00,383.79" fill="none" stroke="#dc2626" stroke-width="2.20"/>
+  <text x="725.00" y="372.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="600" fill="#1d4ed8" text-anchor="start">Upper generator: theta</text>
+  <text x="755.00" y="422.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#dc2626" text-anchor="start">True sin(theta)</text>
+  <text x="730.00" y="472.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="600" fill="#0f766e" text-anchor="start">Lower generator: (7/11)*theta</text>
+  <text x="735.00" y="535.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="400" fill="#334155" text-anchor="middle">|theta| &lt;= 1 rad sector domain</text>
+</svg>

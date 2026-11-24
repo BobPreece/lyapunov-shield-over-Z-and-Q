@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <rect x="2.00" y="2.00" width="956.00" height="556.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.50" rx="8.0"/>
+  <rect x="2.00" y="2.00" width="956.00" height="58.00" fill="#0f172a" stroke="none" rx="8.0"/>
+  <rect x="2.00" y="46.00" width="956.00" height="14.00" fill="#0f172a" stroke="none"/>
+  <text x="22.00" y="27.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#f8fafc" text-anchor="start">07. Control Trap 6: Post-Quantization Equilibrium Drift vs. Rational Anchor &amp; CEGIS</text>
+  <text x="22.00" y="48.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.0" font-weight="400" fill="#94a3b8" text-anchor="start">Naive 1/16 rounding shifts equilibrium to x_shift = -1/22 | Anchored pi_Q(x) - pi_Q(0): CERTIFIED_EXACT | CEGIS converged in 2 rounds</text>
+  <rect x="18.00" y="72.00" width="454.00" height="470.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="18.00" y="72.00" width="454.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="30.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Trap 6: Step Increment F(x) - x Near Origin (Scale S = 16)</text>
+  <line x1="109.20" y1="416.00" x2="109.20" y2="126.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="109.20" y="432.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">-0.10</text>
+  <line x1="202.20" y1="416.00" x2="202.20" y2="126.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="202.20" y="432.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">-0.05</text>
+  <line x1="295.20" y1="416.00" x2="295.20" y2="126.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="295.20" y="432.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">0.00</text>
+  <line x1="388.20" y1="416.00" x2="388.20" y2="126.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="388.20" y="432.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">0.05</text>
+  <line x1="72.00" y1="358.00" x2="444.00" y2="358.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="64.00" y="361.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">-0.04</text>
+  <line x1="72.00" y1="300.00" x2="444.00" y2="300.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="64.00" y="303.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">-0.02</text>
+  <line x1="72.00" y1="242.00" x2="444.00" y2="242.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="64.00" y="245.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">0.00</text>
+  <line x1="72.00" y1="184.00" x2="444.00" y2="184.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="64.00" y="187.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">0.02</text>
+  <line x1="72.00" y1="242.00" x2="444.00" y2="242.00" stroke="#475569" stroke-width="1.30"/>
+  <line x1="295.20" y1="416.00" x2="295.20" y2="126.00" stroke="#475569" stroke-width="1.30"/>
+  <polyline points="72.00,167.69 81.30,172.67 90.60,177.66 99.90,182.64 109.20,187.62 118.50,192.61 127.80,197.59 137.10,202.58 146.40,207.56 155.70,212.55 165.00,217.53 174.30,222.52 183.60,227.50 192.90,232.48 202.20,237.47 211.50,242.45 220.80,247.44 230.10,252.42 239.40,257.41 248.70,262.39 258.00,267.38 267.30,272.36 276.60,277.34 285.90,282.33 295.20,287.31 304.50,292.30 313.80,297.28 323.10,302.27 332.40,307.25 341.70,312.23 351.00,317.22 360.30,322.20 369.60,327.19 378.90,332.17 388.20,337.16 397.50,342.14 406.80,347.12 416.10,352.11 425.40,357.09 434.70,362.08 444.00,367.06" fill="none" stroke="#dc2626" stroke-width="2.30" stroke-dasharray="5,3"/>
+  <polyline points="72.00,122.38 81.30,127.36 90.60,132.34 99.90,137.33 109.20,142.31 118.50,147.30 127.80,152.28 137.10,157.27 146.40,162.25 155.70,167.23 165.00,172.22 174.30,177.20 183.60,182.19 192.90,187.17 202.20,192.16 211.50,197.14 220.80,202.13 230.10,207.11 239.40,212.09 248.70,217.08 258.00,222.06 267.30,227.05 276.60,232.03 285.90,237.02 295.20,242.00 304.50,246.98 313.80,251.97 323.10,256.95 332.40,261.94 341.70,266.92 351.00,271.91 360.30,276.89 369.60,281.88 378.90,286.86 388.20,291.84 397.50,296.83 406.80,301.81 416.10,306.80 425.40,311.78 434.70,316.77 444.00,321.75" fill="none" stroke="#0d9488" stroke-width="2.50"/>
+  <circle cx="210.65" cy="242.00" r="5.00" fill="#dc2626" stroke="#ffffff" stroke-width="1.40"/>
+  <circle cx="295.20" cy="242.00" r="5.00" fill="#059669" stroke="#0f172a" stroke-width="1.40"/>
+  <circle cx="295.20" cy="287.31" r="4.00" fill="#e11d48" stroke="none"/>
+  <text x="202.65" y="230.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#b91c1c" text-anchor="end">x_shift = -1/22</text>
+  <text x="305.20" y="230.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#0f766e" text-anchor="start">Anchored x* = 0</text>
+  <text x="305.20" y="301.31" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#be123c" text-anchor="start">F_naive(0) = -1/64</text>
+  <rect x="36.00" y="452.00" width="418.00" height="74.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.00" rx="5.0"/>
+  <text x="245.00" y="474.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="700" fill="#b91c1c" text-anchor="middle">Naive pi_hat(0) = -1/32 != 0 -&gt; FALSIFIED</text>
+  <text x="245.00" y="495.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="600" fill="#0f766e" text-anchor="middle">Anchor Identity: pi_Q(x) := pi_hat(x) - pi_hat(x*) =&gt; pi_Q(x*) == 0 exact</text>
+  <text x="245.00" y="515.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="middle">Eliminates origin limit-cycle chatter across all binary lattices 1/S</text>
+  <rect x="488.00" y="72.00" width="454.00" height="224.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="488.00" y="72.00" width="454.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="500.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Tournament Lattice Scale Sweep S in {8, 16, 32, 64, 128}</text>
+  <rect x="532.00" y="135.42" width="24.00" height="110.58" fill="#fca5a5" stroke="#dc2626" stroke-width="1.20"/>
+  <rect x="560.00" y="244.00" width="24.00" height="2.00" fill="#0d9488" stroke="#0d9488" stroke-width="1.20"/>
+  <text x="558.00" y="264.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155" text-anchor="middle">S=8</text>
+  <text x="544.00" y="129.42" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#991b1b" text-anchor="middle">0.125</text>
+  <rect x="608.00" y="197.61" width="24.00" height="48.39" fill="#fca5a5" stroke="#dc2626" stroke-width="1.20"/>
+  <rect x="636.00" y="244.00" width="24.00" height="2.00" fill="#0d9488" stroke="#0d9488" stroke-width="1.20"/>
+  <text x="634.00" y="264.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155" text-anchor="middle">S=16</text>
+  <text x="620.00" y="191.61" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#991b1b" text-anchor="middle">0.055</text>
+  <rect x="684.00" y="221.85" width="24.00" height="24.15" fill="#fca5a5" stroke="#dc2626" stroke-width="1.20"/>
+  <rect x="712.00" y="244.00" width="24.00" height="2.00" fill="#0d9488" stroke="#0d9488" stroke-width="1.20"/>
+  <text x="710.00" y="264.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155" text-anchor="middle">S=32</text>
+  <text x="696.00" y="215.85" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#991b1b" text-anchor="middle">0.027</text>
+  <rect x="760.00" y="233.88" width="24.00" height="12.12" fill="#fca5a5" stroke="#dc2626" stroke-width="1.20"/>
+  <rect x="788.00" y="244.00" width="24.00" height="2.00" fill="#0d9488" stroke="#0d9488" stroke-width="1.20"/>
+  <text x="786.00" y="264.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155" text-anchor="middle">S=64</text>
+  <text x="772.00" y="227.88" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#991b1b" text-anchor="middle">0.014</text>
+  <rect x="836.00" y="238.00" width="24.00" height="8.00" fill="#fca5a5" stroke="#dc2626" stroke-width="1.20"/>
+  <rect x="864.00" y="244.00" width="24.00" height="2.00" fill="#0d9488" stroke="#0d9488" stroke-width="1.20"/>
+  <text x="862.00" y="264.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155" text-anchor="middle">S=128</text>
+  <text x="848.00" y="232.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="8.5" font-weight="400" fill="#991b1b" text-anchor="middle">0.004</text>
+  <text x="715.00" y="284.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.2" font-weight="600" fill="#334155" text-anchor="middle">Red: Naive max ||pi_hat(0)||_1 drift (0% pass) | Teal: Anchored (0.000 drift, 100% pass)</text>
+  <rect x="488.00" y="310.00" width="454.00" height="232.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="488.00" y="310.00" width="454.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="500.00" y="328.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Anchor-Safe Lattice CEGIS Synthesis on Coupled Non-Normal 2D Plant</text>
+  <line x1="546.00" y1="490.00" x2="912.00" y2="490.00" stroke="#0d9488" stroke-width="1.40" stroke-dasharray="4,3"/>
+  <polyline points="546.00,373.48 912.00,490.00" fill="none" stroke="#4f46e5" stroke-width="2.40"/>
+  <circle cx="546.00" cy="373.48" r="4.50" fill="#4f46e5" stroke="#ffffff" stroke-width="1.20"/>
+  <text x="546.00" y="508.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="middle">Iter 1</text>
+  <circle cx="912.00" cy="490.00" r="4.50" fill="#059669" stroke="#ffffff" stroke-width="1.20"/>
+  <text x="912.00" y="508.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="middle">Iter 2</text>
+  <text x="725.00" y="376.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#312e81" text-anchor="middle">Converged to CERTIFIED_EXACT in 2 rounds (11 witnesses)</text>
+  <text x="725.00" y="528.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#0f766e" text-anchor="middle">Synthesized exact rational weights w in (Z / 16)^K</text>
+</svg>

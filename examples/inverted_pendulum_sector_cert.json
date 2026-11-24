@@ -1,0 +1,1499 @@
+{
+  "kind": "lyapunov_continuous",
+  "metadata": {},
+  "payload": {
+    "alpha_1": [
+      1,
+      3
+    ],
+    "boundary_certs": [],
+    "coercivity_certs": [
+      {
+        "alpha_cell": [
+          1,
+          3
+        ],
+        "bound_certs": [
+          {
+            "c_den": 1,
+            "c_num": [
+              -2,
+              -2
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              -4,
+              -2
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              -6,
+              -3
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              3,
+              0
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              -6,
+              -5
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              1,
+              4
+            ]
+          }
+        ],
+        "cell_A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "cell_b": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "cell_id": 0,
+        "mu_bounds": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "strict_pos_cert": null,
+        "v_map": {
+          "W": [
+            [
+              3,
+              2
+            ]
+          ],
+          "c": [
+            0
+          ],
+          "denom": 1,
+          "in_dim": 2,
+          "out_dim": 1
+        }
+      },
+      {
+        "alpha_cell": [
+          1,
+          3
+        ],
+        "bound_certs": [
+          {
+            "c_den": 1,
+            "c_num": [
+              0,
+              0
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              -2,
+              0
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              2,
+              2
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              -2,
+              1
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              3,
+              4
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              -2,
+              -1
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              1,
+              0
+            ]
+          }
+        ],
+        "cell_A": [
+          [
+            1,
+            0
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "cell_b": [
+          1,
+          0,
+          0
+        ],
+        "cell_id": 1,
+        "mu_bounds": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "strict_pos_cert": null,
+        "v_map": {
+          "W": [
+            [
+              1,
+              0
+            ]
+          ],
+          "c": [
+            0
+          ],
+          "denom": 1,
+          "in_dim": 2,
+          "out_dim": 1
+        }
+      },
+      {
+        "alpha_cell": [
+          1,
+          3
+        ],
+        "bound_certs": [
+          {
+            "c_den": 1,
+            "c_num": [
+              2,
+              0
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              2,
+              2
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              0,
+              0
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              2,
+              1
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              2,
+              -1
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              3,
+              4
+            ]
+          }
+        ],
+        "cell_A": [
+          [
+            -1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "cell_b": [
+          1,
+          0,
+          0
+        ],
+        "cell_id": 2,
+        "mu_bounds": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "strict_pos_cert": null,
+        "v_map": {
+          "W": [
+            [
+              -1,
+              0
+            ]
+          ],
+          "c": [
+            0
+          ],
+          "denom": 1,
+          "in_dim": 2,
+          "out_dim": 1
+        }
+      },
+      {
+        "alpha_cell": [
+          1,
+          3
+        ],
+        "bound_certs": [
+          {
+            "c_den": 1,
+            "c_num": [
+              4,
+              2
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              2,
+              2
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              6,
+              5
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              1,
+              4
+            ]
+          },
+          {
+            "c_den": 1,
+            "c_num": [
+              6,
+              3
+            ],
+            "is_vacuous": false,
+            "rhs_den": 1,
+            "rhs_num": 0,
+            "scale": 1,
+            "y": [
+              0,
+              0,
+              3,
+              0
+            ]
+          }
+        ],
+        "cell_A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "cell_b": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "cell_id": 3,
+        "mu_bounds": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "strict_pos_cert": null,
+        "v_map": {
+          "W": [
+            [
+              -3,
+              -2
+            ]
+          ],
+          "c": [
+            0
+          ],
+          "denom": 1,
+          "in_dim": 2,
+          "out_dim": 1
+        }
+      }
+    ],
+    "counterexample": null,
+    "ct_bab_pruned_cells": 0,
+    "decay_certs": [
+      {
+        "bound_cert": {
+          "c_den": 22,
+          "c_num": [
+            -71,
+            -44
+          ],
+          "is_vacuous": false,
+          "rhs_den": 22,
+          "rhs_num": 0,
+          "scale": 22,
+          "y": [
+            0,
+            0,
+            27,
+            17
+          ]
+        },
+        "is_ct_bab_lifted": false,
+        "poly_A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "poly_b": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "shard_id": 0,
+        "tag": "v0_p0_g0"
+      },
+      {
+        "bound_cert": {
+          "c_den": 2,
+          "c_num": [
+            -5,
+            -4
+          ],
+          "is_vacuous": false,
+          "rhs_den": 2,
+          "rhs_num": 0,
+          "scale": 2,
+          "y": [
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        "is_ct_bab_lifted": false,
+        "poly_A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "poly_b": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "shard_id": 1,
+        "tag": "v0_p0_g1"
+      },
+      {
+        "bound_cert": {
+          "c_den": 2,
+          "c_num": [
+            1,
+            2
+          ],
+          "is_vacuous": false,
+          "rhs_den": 2,
+          "rhs_num": 0,
+          "scale": 2,
+          "y": [
+            0,
+            1,
+            3
+          ]
+        },
+        "is_ct_bab_lifted": false,
+        "poly_A": [
+          [
+            1,
+            0
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "poly_b": [
+          1,
+          0,
+          0
+        ],
+        "shard_id": 2,
+        "tag": "v1_p0_g0"
+      },
+      {
+        "bound_cert": {
+          "c_den": 2,
+          "c_num": [
+            1,
+            2
+          ],
+          "is_vacuous": false,
+          "rhs_den": 2,
+          "rhs_num": 0,
+          "scale": 2,
+          "y": [
+            0,
+            1,
+            3
+          ]
+        },
+        "is_ct_bab_lifted": false,
+        "poly_A": [
+          [
+            1,
+            0
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "poly_b": [
+          1,
+          0,
+          0
+        ],
+        "shard_id": 3,
+        "tag": "v1_p0_g1"
+      },
+      {
+        "bound_cert": {
+          "c_den": 2,
+          "c_num": [
+            -1,
+            -2
+          ],
+          "is_vacuous": false,
+          "rhs_den": 2,
+          "rhs_num": 0,
+          "scale": 2,
+          "y": [
+            0,
+            1,
+            3
+          ]
+        },
+        "is_ct_bab_lifted": false,
+        "poly_A": [
+          [
+            -1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "poly_b": [
+          1,
+          0,
+          0
+        ],
+        "shard_id": 4,
+        "tag": "v2_p0_g0"
+      },
+      {
+        "bound_cert": {
+          "c_den": 2,
+          "c_num": [
+            -1,
+            -2
+          ],
+          "is_vacuous": false,
+          "rhs_den": 2,
+          "rhs_num": 0,
+          "scale": 2,
+          "y": [
+            0,
+            1,
+            3
+          ]
+        },
+        "is_ct_bab_lifted": false,
+        "poly_A": [
+          [
+            -1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "poly_b": [
+          1,
+          0,
+          0
+        ],
+        "shard_id": 5,
+        "tag": "v2_p0_g1"
+      },
+      {
+        "bound_cert": {
+          "c_den": 22,
+          "c_num": [
+            71,
+            44
+          ],
+          "is_vacuous": false,
+          "rhs_den": 22,
+          "rhs_num": 0,
+          "scale": 22,
+          "y": [
+            0,
+            0,
+            27,
+            17
+          ]
+        },
+        "is_ct_bab_lifted": false,
+        "poly_A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "poly_b": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "shard_id": 6,
+        "tag": "v3_p0_g0"
+      },
+      {
+        "bound_cert": {
+          "c_den": 2,
+          "c_num": [
+            5,
+            4
+          ],
+          "is_vacuous": false,
+          "rhs_den": 2,
+          "rhs_num": 0,
+          "scale": 2,
+          "y": [
+            0,
+            0,
+            1,
+            3
+          ]
+        },
+        "is_ct_bab_lifted": false,
+        "poly_A": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "poly_b": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "shard_id": 7,
+        "tag": "v3_p0_g1"
+      }
+    ],
+    "epsilon": [
+      1,
+      6
+    ],
+    "filippov_audit": {
+      "certificates": [
+        {
+          "cell_ids": [
+            0,
+            1
+          ],
+          "codim": 1,
+          "continuity_certs": [],
+          "diff_map": null,
+          "eq_only_certs": [],
+          "face_id": 0,
+          "gamma_kink": [
+            2,
+            1
+          ],
+          "gen_Q_mats": [
+            [
+              [
+                52,
+                44
+              ]
+            ],
+            [
+              [
+                44,
+                44
+              ]
+            ],
+            [
+              [
+                52,
+                44
+              ]
+            ],
+            [
+              [
+                44,
+                44
+              ]
+            ]
+          ],
+          "gen_h_rows": [
+            [
+              -71,
+              -44
+            ],
+            [
+              -55,
+              -44
+            ],
+            [
+              -71,
+              -44
+            ],
+            [
+              -55,
+              -44
+            ]
+          ],
+          "gen_kappas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gen_s_vecs": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "infeas_cert": null,
+          "mode": "TANGENT_MULTIPLIER_DECAY",
+          "normals": [
+            [
+              -1,
+              -1
+            ]
+          ],
+          "rhss": [
+            0
+          ],
+          "scale": 4,
+          "slide_poly_A": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -2,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "slide_poly_b": [
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "tau_int": [
+            3
+          ],
+          "y_per_gen": [
+            [
+              0,
+              0,
+              84,
+              0,
+              40
+            ],
+            [
+              0,
+              0,
+              44,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              84,
+              0,
+              40
+            ],
+            [
+              0,
+              0,
+              44,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "cell_ids": [
+            0,
+            2
+          ],
+          "codim": 1,
+          "continuity_certs": [],
+          "diff_map": null,
+          "eq_only_certs": [],
+          "face_id": 1,
+          "gamma_kink": [
+            2,
+            1
+          ],
+          "gen_Q_mats": [
+            [
+              [
+                52,
+                22
+              ]
+            ],
+            [
+              [
+                44,
+                22
+              ]
+            ],
+            [
+              [
+                52,
+                22
+              ]
+            ],
+            [
+              [
+                44,
+                22
+              ]
+            ]
+          ],
+          "gen_h_rows": [
+            [
+              -71,
+              -44
+            ],
+            [
+              -55,
+              -44
+            ],
+            [
+              -71,
+              -44
+            ],
+            [
+              -55,
+              -44
+            ]
+          ],
+          "gen_kappas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gen_s_vecs": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "infeas_cert": null,
+          "mode": "TANGENT_MULTIPLIER_DECAY",
+          "normals": [
+            [
+              -2,
+              -1
+            ]
+          ],
+          "rhss": [
+            0
+          ],
+          "scale": 2,
+          "slide_poly_A": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -2,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "slide_poly_b": [
+            1,
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "tau_int": [
+            1
+          ],
+          "y_per_gen": [
+            [
+              0,
+              0,
+              24,
+              42,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              66,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              24,
+              42,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              66,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "cell_ids": [
+            1,
+            3
+          ],
+          "codim": 1,
+          "continuity_certs": [],
+          "diff_map": null,
+          "eq_only_certs": [],
+          "face_id": 2,
+          "gamma_kink": [
+            2,
+            1
+          ],
+          "gen_Q_mats": [
+            [
+              [
+                52,
+                22
+              ]
+            ],
+            [
+              [
+                44,
+                22
+              ]
+            ],
+            [
+              [
+                52,
+                22
+              ]
+            ],
+            [
+              [
+                44,
+                22
+              ]
+            ]
+          ],
+          "gen_h_rows": [
+            [
+              11,
+              22
+            ],
+            [
+              11,
+              22
+            ],
+            [
+              11,
+              22
+            ],
+            [
+              11,
+              22
+            ]
+          ],
+          "gen_kappas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gen_s_vecs": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "infeas_cert": null,
+          "mode": "TANGENT_MULTIPLIER_DECAY",
+          "normals": [
+            [
+              -2,
+              -1
+            ]
+          ],
+          "rhss": [
+            0
+          ],
+          "scale": 2,
+          "slide_poly_A": [
+            [
+              1,
+              0
+            ],
+            [
+              -2,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "slide_poly_b": [
+            1,
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "tau_int": [
+            1
+          ],
+          "y_per_gen": [
+            [
+              0,
+              0,
+              58,
+              0,
+              0,
+              8
+            ],
+            [
+              0,
+              0,
+              66,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              58,
+              0,
+              0,
+              8
+            ],
+            [
+              0,
+              0,
+              66,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "cell_ids": [
+            2,
+            3
+          ],
+          "codim": 1,
+          "continuity_certs": [],
+          "diff_map": null,
+          "eq_only_certs": [],
+          "face_id": 3,
+          "gamma_kink": [
+            2,
+            1
+          ],
+          "gen_Q_mats": [
+            [
+              [
+                52,
+                44
+              ]
+            ],
+            [
+              [
+                44,
+                44
+              ]
+            ],
+            [
+              [
+                52,
+                44
+              ]
+            ],
+            [
+              [
+                44,
+                44
+              ]
+            ]
+          ],
+          "gen_h_rows": [
+            [
+              -11,
+              -22
+            ],
+            [
+              -11,
+              -22
+            ],
+            [
+              -11,
+              -22
+            ],
+            [
+              -11,
+              -22
+            ]
+          ],
+          "gen_kappas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "gen_s_vecs": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "infeas_cert": null,
+          "mode": "TANGENT_MULTIPLIER_DECAY",
+          "normals": [
+            [
+              -1,
+              -1
+            ]
+          ],
+          "rhss": [
+            0
+          ],
+          "scale": 4,
+          "slide_poly_A": [
+            [
+              -1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "slide_poly_b": [
+            1,
+            0,
+            0,
+            2,
+            0
+          ],
+          "tau_int": [
+            3
+          ],
+          "y_per_gen": [
+            [
+              0,
+              68,
+              24,
+              0,
+              0
+            ],
+            [
+              0,
+              44,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              68,
+              24,
+              0,
+              0
+            ],
+            [
+              0,
+              44,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "codim1_creases": 4,
+      "codim_k_creases": 0,
+      "counterexample": null,
+      "creases_audited": 4,
+      "message": "Certified 4 Filippov creases (4 codim-1, 0 codim-k)",
+      "verdict": "CERTIFIED_EXACT"
+    },
+    "filippov_witness": null,
+    "is_discrete": false,
+    "message": "Certified zero-hole continuous Lyapunov + Filippov stability across 8 interior generators and 4 creases",
+    "rho_star": null,
+    "shards_certified": 8,
+    "verdict": "CERTIFIED_EXACT"
+  },
+  "schema_version": "1.0.0",
+  "sha256": "520140ea69442ce870fdd3a5347135cc2aada8afee34f8513c772f31ba16bbdf"
+}

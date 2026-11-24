@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <rect x="2.00" y="2.00" width="956.00" height="556.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.50" rx="8.0"/>
+  <rect x="2.00" y="2.00" width="956.00" height="58.00" fill="#0f172a" stroke="none" rx="8.0"/>
+  <rect x="2.00" y="46.00" width="956.00" height="14.00" fill="#0f172a" stroke="none"/>
+  <text x="22.00" y="27.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#f8fafc" text-anchor="start">09. 4D Coupled Platoon / Microgrid: Safe Headway Corridor &amp; Zero-Hole l_1 Contraction</text>
+  <text x="22.00" y="48.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.0" font-weight="400" fill="#94a3b8" text-anchor="start">Certified 4D l_1 Lyapunov (32 shards, lambda = 1/2) + Safe Headway Box [-1, 1]^4 (20 Bouligand facets)</text>
+  <rect x="18.00" y="72.00" width="454.00" height="470.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="18.00" y="72.00" width="454.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="30.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Projected (x_1, x_2) Phase Plane &amp; Safe Headway Corridor [-1, 1]^4</text>
+  <line x1="110.23" y1="488.00" x2="110.23" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="445.77" x2="434.00" y2="445.77" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="110.23" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">-1.0</text>
+  <line x1="180.62" y1="488.00" x2="180.62" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="375.38" x2="434.00" y2="375.38" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="180.62" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">-0.5</text>
+  <line x1="251.00" y1="488.00" x2="251.00" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="305.00" x2="434.00" y2="305.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="251.00" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">0.0</text>
+  <line x1="321.38" y1="488.00" x2="321.38" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="234.62" x2="434.00" y2="234.62" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="321.38" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">0.5</text>
+  <line x1="391.77" y1="488.00" x2="391.77" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <line x1="68.00" y1="164.23" x2="434.00" y2="164.23" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="391.77" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">1.0</text>
+  <polygon points="110.23,445.77 391.77,445.77 391.77,164.23 110.23,164.23" fill="#ecfdf5" stroke="#059669" stroke-width="2.00" fill-opacity="0.60"/>
+  <line x1="180.62" y1="445.77" x2="180.62" y2="164.23" stroke="#d97706" stroke-width="1.30" stroke-dasharray="4,3"/>
+  <line x1="321.38" y1="445.77" x2="321.38" y2="164.23" stroke="#d97706" stroke-width="1.30" stroke-dasharray="4,3"/>
+  <polygon points="321.38,305.00 251.00,234.62 180.62,305.00 251.00,375.38" fill="none" stroke="#94a3b8" stroke-width="1.00" stroke-dasharray="3,3"/>
+  <polygon points="391.77,305.00 251.00,164.23 110.23,305.00 251.00,445.77" fill="none" stroke="#94a3b8" stroke-width="1.00" stroke-dasharray="3,3"/>
+  <polygon points="462.15,305.00 251.00,93.85 39.85,305.00 251.00,516.15" fill="none" stroke="#94a3b8" stroke-width="1.00" stroke-dasharray="3,3"/>
+  <polyline points="391.77,445.77 374.17,422.89 359.15,403.60 346.31,387.34 335.34,373.64 325.94,362.09 317.89,352.36 310.89,344.17 304.71,337.29 299.24,331.50 294.38,326.65 290.07,322.58 286.24,319.18 282.82,316.35 279.77,313.99 277.05,312.03 274.61,310.41 272.42,309.07 270.46,307.97 268.69,307.07 267.10,306.34 265.67,305.75 264.37,305.28 263.20,304.91 262.14,304.61 261.18,304.38 260.31,304.21 259.52,304.09 258.80,304.00 258.15,303.94 257.55,303.91 257.01,303.89 256.51,303.89" fill="none" stroke="#2563eb" stroke-width="2.20"/>
+  <circle cx="391.77" cy="445.77" r="4.20" fill="#2563eb" stroke="#ffffff" stroke-width="1.20"/>
+  <polyline points="391.77,164.23 377.69,180.07 365.22,194.17 354.16,206.70 344.36,217.83 335.65,227.71 327.92,236.46 321.05,244.21 314.94,251.07 309.36,257.13 304.25,262.50 299.59,267.24 295.33,271.44 291.44,275.15 287.89,278.44 284.64,281.36 281.68,283.94 278.98,286.22 276.52,288.25 274.27,290.05 272.22,291.65 270.34,293.07 268.64,294.33 267.08,295.45 265.66,296.45 264.37,297.33 263.19,298.12 262.11,298.83 261.13,299.46 260.24,300.02 259.43,300.52 258.68,300.97 258.01,301.37" fill="none" stroke="#7c3aed" stroke-width="2.20"/>
+  <circle cx="391.77" cy="164.23" r="4.20" fill="#7c3aed" stroke="#ffffff" stroke-width="1.20"/>
+  <polyline points="215.81,199.42 221.09,214.38 225.59,227.23 229.43,238.27 232.70,247.75 235.49,255.89 237.86,262.88 239.88,268.88 241.59,274.02 243.05,278.44 244.28,282.23 245.33,285.48 246.22,288.27 246.98,290.66 247.61,292.71 248.15,294.47 248.61,295.97 248.99,297.26 249.32,298.37 249.59,299.32 249.82,300.13 250.02,300.83 250.18,301.43 250.32,301.94 250.43,302.38 250.53,302.75 250.61,303.08 250.68,303.35 250.73,303.59 250.78,303.79 250.82,303.97 250.85,304.11 250.88,304.24" fill="none" stroke="#0d9488" stroke-width="2.20"/>
+  <circle cx="215.81" cy="199.42" r="4.20" fill="#0d9488" stroke="#ffffff" stroke-width="1.20"/>
+  <circle cx="251.00" cy="305.00" r="4.80" fill="#059669" stroke="#0f172a" stroke-width="1.40"/>
+  <text x="251.00" y="526.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155" text-anchor="middle">Safe headway box [-1, 1]^4 | Dashed amber: ReLU bumper |x_1| = 1/2</text>
+  <rect x="488.00" y="72.00" width="454.00" height="470.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="488.00" y="72.00" width="454.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="500.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Certified Modal Contraction Envelope V(x(t)) = ||x(t)||_1</text>
+  <line x1="542.00" y1="488.00" x2="542.00" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="542.00" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.0s</text>
+  <line x1="635.00" y1="488.00" x2="635.00" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="635.00" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.4s</text>
+  <line x1="728.00" y1="488.00" x2="728.00" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="728.00" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">0.8s</text>
+  <line x1="821.00" y1="488.00" x2="821.00" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="821.00" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">1.2s</text>
+  <line x1="914.00" y1="488.00" x2="914.00" y2="122.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="914.00" y="504.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="middle">1.6s</text>
+  <line x1="542.00" y1="488.00" x2="914.00" y2="488.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="534.00" y="491.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">0</text>
+  <line x1="542.00" y1="400.86" x2="914.00" y2="400.86" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="534.00" y="403.86" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">1</text>
+  <line x1="542.00" y1="313.71" x2="914.00" y2="313.71" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="534.00" y="316.71" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">2</text>
+  <line x1="542.00" y1="226.57" x2="914.00" y2="226.57" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="534.00" y="229.57" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">3</text>
+  <line x1="542.00" y1="139.43" x2="914.00" y2="139.43" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="534.00" y="142.43" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#64748b" text-anchor="end">4</text>
+  <polyline points="542.00,139.43 553.62,148.03 565.25,156.43 576.88,164.62 588.50,172.60 600.12,180.39 611.75,187.98 623.38,195.39 635.00,202.61 646.62,209.66 658.25,216.53 669.88,223.23 681.50,229.77 693.12,236.15 704.75,242.37 716.38,248.43 728.00,254.35 739.62,260.11 751.25,265.74 762.88,271.23 774.50,276.58 786.12,281.80 797.75,286.89 809.38,291.86 821.00,296.70 832.62,301.42 844.25,306.03 855.88,310.52 867.50,314.90 879.12,319.18 890.75,323.35 902.38,327.41 914.00,331.38" fill="none" stroke="#dc2626" stroke-width="2.00" stroke-dasharray="6,4"/>
+  <polyline points="542.00,139.43 553.62,188.45 565.25,230.26 576.88,265.94 588.50,296.41 600.12,322.42 611.75,344.64 623.38,363.69 635.00,380.09 646.62,394.22 658.25,406.40 669.88,416.91 681.50,425.98 693.12,433.83 704.75,440.61 716.38,446.49 728.00,451.59 739.62,456.01 751.25,459.85 762.88,463.20 774.50,466.11 786.12,468.65 797.75,470.86 809.38,472.37 821.00,473.36 832.62,474.30 844.25,475.20 855.88,476.05 867.50,476.86 879.12,477.62 890.75,478.34 902.38,479.01 914.00,479.65" fill="none" stroke="#2563eb" stroke-width="2.30"/>
+  <polyline points="542.00,139.43 553.62,184.09 565.25,222.72 576.88,256.15 588.50,285.10 600.12,310.19 611.75,331.94 623.38,350.81 635.00,367.19 646.62,381.52 658.25,394.06 669.88,405.04 681.50,414.67 693.12,423.12 704.75,430.55 716.38,437.08 728.00,442.83 739.62,447.89 751.25,452.36 762.88,456.31 774.50,459.79 786.12,462.87 797.75,465.60 809.38,468.02 821.00,470.16 832.62,472.06 844.25,473.75 855.88,475.25 867.50,476.59 879.12,477.78 890.75,478.84 902.38,479.78 914.00,480.63" fill="none" stroke="#7c3aed" stroke-width="2.30"/>
+  <polyline points="542.00,270.14 553.62,302.28 565.25,329.67 576.88,353.01 588.50,372.91 600.12,389.87 611.75,404.33 623.38,416.65 635.00,427.16 646.62,436.11 658.25,443.75 669.88,450.25 681.50,455.80 693.12,460.53 704.75,464.57 716.38,468.01 728.00,470.94 739.62,473.44 751.25,475.57 762.88,477.39 774.50,478.94 786.12,480.27 797.75,481.40 809.38,482.36 821.00,483.18 832.62,483.88 844.25,484.48 855.88,484.99 867.50,485.43 879.12,485.80 890.75,486.12 902.38,486.39 914.00,486.62" fill="none" stroke="#0d9488" stroke-width="2.30"/>
+  <text x="720.00" y="152.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.2" font-weight="700" fill="#b91c1c" text-anchor="middle">Certified Upper Bound: V(0) * exp(-t / 2)</text>
+  <text x="720.00" y="366.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#1d4ed8" text-anchor="middle">Exact-Q nonlinear platoon rollouts ||x(t)||_1</text>
+  <text x="728.00" y="526.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="600" fill="#334155" text-anchor="middle">Time t (seconds) — Zero overshoot across all 16 orthants</text>
+</svg>

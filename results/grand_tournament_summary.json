@@ -1,0 +1,295 @@
+{
+  "kind": "grand_tournament_summary",
+  "metadata": {
+    "seed": 20261123,
+    "total_instances": 1050
+  },
+  "payload": {
+    "certificates_and_witnesses_verified": 1050,
+    "dimension_scaling": {
+      "1D": {
+        "dim": 1,
+        "instances": 428,
+        "max_ms": 4.8625,
+        "mean_ms": 2.4502,
+        "median_ms": 2.6064,
+        "p95_ms": 4.6905
+      },
+      "2D": {
+        "dim": 2,
+        "instances": 446,
+        "max_ms": 126.4656,
+        "mean_ms": 13.6184,
+        "median_ms": 3.6765,
+        "p95_ms": 57.2077
+      },
+      "3D": {
+        "dim": 3,
+        "instances": 31,
+        "max_ms": 189.203,
+        "mean_ms": 50.6429,
+        "median_ms": 32.8928,
+        "p95_ms": 173.3186
+      },
+      "4D": {
+        "dim": 4,
+        "instances": 57,
+        "max_ms": 60.8909,
+        "mean_ms": 14.8721,
+        "median_ms": 7.6723,
+        "p95_ms": 57.744
+      },
+      "5D": {
+        "dim": 5,
+        "instances": 45,
+        "max_ms": 134.7821,
+        "mean_ms": 19.5953,
+        "median_ms": 10.137,
+        "p95_ms": 59.8252
+      },
+      "6D": {
+        "dim": 6,
+        "instances": 43,
+        "max_ms": 121.1741,
+        "mean_ms": 31.376,
+        "median_ms": 16.3458,
+        "p95_ms": 121.005
+      }
+    },
+    "elapsed_sec": 13.1834,
+    "family_breakdown": {
+      "1_lyapunov_roa": {
+        "certified_exact": 189,
+        "falsified_counterexample": 51,
+        "max_ms": 189.203,
+        "mean_ms": 16.1262,
+        "open_budget_exceeded": 0,
+        "total": 240,
+        "verified": 240
+      },
+      "2_filippov_creases": {
+        "certified_exact": 125,
+        "falsified_counterexample": 55,
+        "max_ms": 43.066,
+        "mean_ms": 6.7382,
+        "open_budget_exceeded": 0,
+        "total": 180,
+        "verified": 180
+      },
+      "3_bouligand_ncbf": {
+        "certified_exact": 105,
+        "falsified_counterexample": 75,
+        "max_ms": 35.8396,
+        "mean_ms": 8.7813,
+        "open_budget_exceeded": 0,
+        "total": 180,
+        "verified": 180
+      },
+      "4_periodic_orbits": {
+        "certified_exact": 65,
+        "falsified_counterexample": 95,
+        "max_ms": 126.4656,
+        "mean_ms": 13.843,
+        "open_budget_exceeded": 0,
+        "total": 160,
+        "verified": 160
+      },
+      "5_lattice_anchor_sweeps": {
+        "certified_exact": 100,
+        "falsified_counterexample": 75,
+        "max_ms": 36.0161,
+        "mean_ms": 8.8059,
+        "open_budget_exceeded": 0,
+        "total": 175,
+        "verified": 175
+      },
+      "6_highdim_xp_ctbab": {
+        "certified_exact": 45,
+        "falsified_counterexample": 20,
+        "max_ms": 53.2674,
+        "mean_ms": 11.7509,
+        "open_budget_exceeded": 50,
+        "total": 115,
+        "verified": 115
+      }
+    },
+    "family_highlights": {
+      "deadlock_duals_verified": 90,
+      "filippov_modes": {
+        "codim2_corner": 25,
+        "stable_sliding": 55,
+        "transversal": 55,
+        "uphill_trap": 45
+      },
+      "lattice_scale_sweep": {
+        "128": {
+          "anchored_certified": 15,
+          "cegis_certified": 5,
+          "max_pi_eq_drift_l1": 0.004272,
+          "naive_falsified": 15,
+          "scale_denom": 128
+        },
+        "16": {
+          "anchored_certified": 15,
+          "cegis_certified": 5,
+          "max_pi_eq_drift_l1": 0.054688,
+          "naive_falsified": 15,
+          "scale_denom": 16
+        },
+        "32": {
+          "anchored_certified": 15,
+          "cegis_certified": 5,
+          "max_pi_eq_drift_l1": 0.027344,
+          "naive_falsified": 15,
+          "scale_denom": 32
+        },
+        "64": {
+          "anchored_certified": 15,
+          "cegis_certified": 5,
+          "max_pi_eq_drift_l1": 0.013672,
+          "naive_falsified": 15,
+          "scale_denom": 64
+        },
+        "8": {
+          "anchored_certified": 15,
+          "cegis_certified": 5,
+          "max_pi_eq_drift_l1": 0.125,
+          "naive_falsified": 15,
+          "scale_denom": 8
+        }
+      },
+      "orbit_subfamilies": {
+        "isolated_stable": 35,
+        "period2": 70,
+        "period3": 15,
+        "period4": 10,
+        "singular_segment": 30
+      },
+      "roa_certified_count": 86,
+      "xp_budget_guarded": 50,
+      "xp_ct_bab_certified": 45
+    },
+    "mean_instance_ms": 11.2105,
+    "median_instance_ms": 3.3593,
+    "p95_instance_ms": 53.2674,
+    "package_version": "2.0.0",
+    "seed": 20261123,
+    "solve_time_histogram": [
+      {
+        "bucket": "<0.5ms",
+        "count": 40
+      },
+      {
+        "bucket": "0.5-1ms",
+        "count": 170
+      },
+      {
+        "bucket": "1-2ms",
+        "count": 74
+      },
+      {
+        "bucket": "2-5ms",
+        "count": 430
+      },
+      {
+        "bucket": "5-10ms",
+        "count": 98
+      },
+      {
+        "bucket": "10-25ms",
+        "count": 74
+      },
+      {
+        "bucket": ">=25ms",
+        "count": 164
+      }
+    ],
+    "total_instances": 1050,
+    "traps_defended": {
+      "entries": [
+        {
+          "elapsed_ms": 10.396042000000001,
+          "name": "Filippov Uphill Sliding Crease",
+          "passed": true,
+          "summary": "Caught uphill sliding at x*=((0, 1), 2)",
+          "trap_id": 1,
+          "verdict": "FALSIFIED_COUNTEREXAMPLE"
+        },
+        {
+          "elapsed_ms": 2.9457919999999955,
+          "name": "Bouligand Corner Escape Defeating Heaviside",
+          "passed": true,
+          "summary": "Falsified both autonomous & controlled apex escapes at x*=(0,0)",
+          "trap_id": 2,
+          "verdict": "FALSIFIED_COUNTEREXAMPLE"
+        },
+        {
+          "elapsed_ms": 63.251083,
+          "name": "Hidden Rational Period-2 & Period-3 Limit Cycles",
+          "passed": true,
+          "summary": "Extracted {-4/9, +4/9} (1D) and ((-2,-2), (2,0), (0,2)) (2D)",
+          "trap_id": 3,
+          "verdict": "FALSIFIED_COUNTEREXAMPLE"
+        },
+        {
+          "elapsed_ms": 89.77,
+          "name": "Actuator-Saturated Deadlocked Concave Corner",
+          "passed": true,
+          "summary": "Emitted Farkas deadlock dual (lambda > 0, eta > 0) at x*=(0,0)",
+          "trap_id": 4,
+          "verdict": "FALSIFIED_COUNTEREXAMPLE"
+        },
+        {
+          "elapsed_ms": 0.2887909999999827,
+          "name": "5e-8 Sub-Tolerance Leak & 1e-14 Rational Sliver",
+          "passed": true,
+          "summary": "Caught 5e-8 leak & certified sliver r*=(1, 400000000000000)",
+          "trap_id": 5,
+          "verdict": "FALSIFIED_COUNTEREXAMPLE"
+        },
+        {
+          "elapsed_ms": 3.600416999999995,
+          "name": "Post-Rounding Equilibrium Drift vs. Anchor Subtraction",
+          "passed": true,
+          "summary": "pi_hat(0)=-1/32 shifted x*=-1/22; anchor restored CERTIFIED_EXACT",
+          "trap_id": 6,
+          "verdict": "CERTIFIED_EXACT"
+        },
+        {
+          "elapsed_ms": 80.22408299999998,
+          "name": "1,016 / 1,024 Two-Stage Composition Shard Blowup",
+          "passed": true,
+          "summary": "Pruned 1,016 degenerate 0D/1D shards; certified exact 8 2D cones",
+          "trap_id": 7,
+          "verdict": "CERTIFIED_EXACT"
+        },
+        {
+          "elapsed_ms": 697.160167,
+          "name": "12-Hyperplane Degenerate Origin Cone in 3D",
+          "passed": true,
+          "summary": "Certified 84 3D origin cones with zero cycling",
+          "trap_id": 8,
+          "verdict": "CERTIFIED_EXACT"
+        },
+        {
+          "elapsed_ms": 371.478458,
+          "name": "6D 64-Neuron XP Arrangement Budget Guard",
+          "passed": true,
+          "summary": "Zaslavsky=83278001; fail-closed OPEN_BUDGET_EXCEEDED in 371.5ms",
+          "trap_id": 9,
+          "verdict": "OPEN_BUDGET_EXCEEDED"
+        }
+      ],
+      "passed": 9,
+      "total": 9
+    },
+    "verdict_counts": {
+      "CERTIFIED_EXACT": 629,
+      "FALSIFIED_COUNTEREXAMPLE": 371,
+      "OPEN_BUDGET_EXCEEDED": 50
+    },
+    "verification_rate": "100.0%"
+  },
+  "schema_version": "1.0.0",
+  "sha256": "cf0f9d32aa08e441aec08b66025bbf2187794c03e0997786ba4864609e195ef9"
+}

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <rect x="2.00" y="2.00" width="956.00" height="556.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.50" rx="8.0"/>
+  <rect x="2.00" y="2.00" width="956.00" height="58.00" fill="#0f172a" stroke="none" rx="8.0"/>
+  <rect x="2.00" y="46.00" width="956.00" height="14.00" fill="#0f172a" stroke="none"/>
+  <text x="22.00" y="27.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="16.0" font-weight="700" fill="#f8fafc" text-anchor="start">06. Control Trap 5: Float64 5e-8 Reduced-Cost Blindness &amp; 1e-14 Rational Sliver</text>
+  <text x="22.00" y="48.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.0" font-weight="400" fill="#94a3b8" text-anchor="start">Left: 5e-8 slope across 10^7 shard violates 1/4 bound (c^T x* = 1/2) | Right: Sliver Chebyshev radius r* = 1/400000000000000 &gt; 0</text>
+  <rect x="18.00" y="72.00" width="454.00" height="470.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="18.00" y="72.00" width="454.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="30.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Trap 5a: 5e-8 Reduced Cost vs. Float64 tol_opt = 1e-7</text>
+  <line x1="68.00" y1="396.00" x2="68.00" y2="126.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="68.00" y="414.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">0.0e+00</text>
+  <line x1="161.00" y1="396.00" x2="161.00" y2="126.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="161.00" y="414.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">2.5e+06</text>
+  <line x1="254.00" y1="396.00" x2="254.00" y2="126.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="254.00" y="414.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">5.0e+06</text>
+  <line x1="347.00" y1="396.00" x2="347.00" y2="126.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="347.00" y="414.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">7.5e+06</text>
+  <line x1="440.00" y1="396.00" x2="440.00" y2="126.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="440.00" y="414.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="middle">1.0e+07</text>
+  <line x1="68.00" y1="396.00" x2="440.00" y2="396.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="58.00" y="399.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">0.00</text>
+  <line x1="68.00" y1="283.50" x2="440.00" y2="283.50" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="58.00" y="286.50" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">0.25</text>
+  <line x1="68.00" y1="171.00" x2="440.00" y2="171.00" stroke="#e2e8f0" stroke-width="1.00"/>
+  <text x="58.00" y="174.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="400" fill="#64748b" text-anchor="end">0.50</text>
+  <line x1="68.00" y1="283.50" x2="440.00" y2="283.50" stroke="#dc2626" stroke-width="1.60" stroke-dasharray="5,3"/>
+  <text x="180.00" y="275.50" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#b91c1c" text-anchor="start">Safety bound rhs = 1/4 (0.25)</text>
+  <line x1="68.00" y1="396.00" x2="434.44" y2="174.36" stroke="#0d9488" stroke-width="2.50"/>
+  <polygon points="440.00,171.00 436.30,177.44 432.58,171.28" fill="#0d9488" stroke="none"/>
+  <circle cx="68.00" cy="396.00" r="5.00" fill="#dc2626" stroke="#ffffff" stroke-width="1.20"/>
+  <circle cx="440.00" cy="171.00" r="5.00" fill="#059669" stroke="#0f172a" stroke-width="1.20"/>
+  <text x="80.00" y="386.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#b91c1c" text-anchor="start">Float64 stalls at x=0 (r_c = 5e-8 &lt; 1e-7)</text>
+  <text x="428.00" y="159.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="700" fill="#0f766e" text-anchor="end">Bareiss pivot -&gt; x* = (10^7, 0, 0), val = 1/2</text>
+  <text x="254.00" y="434.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="600" fill="#334155" text-anchor="middle">Primal coordinate x_1 in [0, 10^7]</text>
+  <rect x="36.00" y="452.00" width="418.00" height="74.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.00" rx="5.0"/>
+  <text x="245.00" y="474.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#0f172a" text-anchor="middle">Exact Bareiss Verdict: FALSIFIED_COUNTEREXAMPLE (3 exact integer pivot)</text>
+  <text x="245.00" y="494.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="400" fill="#0f766e" text-anchor="middle">Verified Witness: x* = (10000000, 0, 0)</text>
+  <text x="245.00" y="514.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.6" font-weight="600" fill="#dc2626" text-anchor="middle">HiGHS / SciPy default tol=1e-7: FALSE POSITIVE (reports max = 0.0)</text>
+  <rect x="488.00" y="72.00" width="454.00" height="470.00" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.20" rx="6.0"/>
+  <rect x="488.00" y="72.00" width="454.00" height="26.00" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.00" rx="6.0"/>
+  <text x="500.00" y="90.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="start">Trap 5b: Magnified 1e-14 Sliver &amp; Exact l_inf Chebyshev Ball</text>
+  <polygon points="546.00,306.00 914.00,306.00 914.00,156.00 546.00,156.00" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.80" fill-opacity="0.75"/>
+  <polygon points="680.93,268.50 779.07,268.50 779.07,193.50 680.93,193.50" fill="#ccfbf1" stroke="#0d9488" stroke-width="2.00"/>
+  <circle cx="730.00" cy="231.00" r="4.00" fill="#059669" stroke="#0f172a" stroke-width="1.20"/>
+  <text x="730.00" y="199.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.0" font-weight="700" fill="#0f766e" text-anchor="middle">r* = 1 / (4 * 10^14) &gt; 0</text>
+  <text x="730.00" y="145.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="600" fill="#0369a1" text-anchor="middle">Upper wall: x_2 - x_1 = 10^-14</text>
+  <text x="730.00" y="326.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="600" fill="#0369a1" text-anchor="middle">Lower wall: x_2 - x_1 = 0</text>
+  <rect x="508.00" y="366.00" width="414.00" height="160.00" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.00" rx="5.0"/>
+  <text x="715.00" y="388.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#0f172a" text-anchor="middle">Numerical Resolution Scale (log10)</text>
+  <line x1="534.00" y1="434.00" x2="896.00" y2="434.00" stroke="#334155" stroke-width="2.00"/>
+  <line x1="534.00" y1="427.00" x2="534.00" y2="441.00" stroke="#475569" stroke-width="2.00"/>
+  <circle cx="534.00" cy="434.00" r="3.50" fill="#475569" stroke="none"/>
+  <text x="534.00" y="454.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="700" fill="#475569" text-anchor="middle">10^0</text>
+  <line x1="692.38" y1="427.00" x2="692.38" y2="441.00" stroke="#dc2626" stroke-width="2.00"/>
+  <circle cx="692.38" cy="434.00" r="3.50" fill="#dc2626" stroke="none"/>
+  <text x="692.38" y="420.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="700" fill="#dc2626" text-anchor="middle">1e-7 (LP tol)</text>
+  <line x1="715.00" y1="427.00" x2="715.00" y2="441.00" stroke="#d97706" stroke-width="2.00"/>
+  <circle cx="715.00" cy="434.00" r="3.50" fill="#d97706" stroke="none"/>
+  <text x="715.00" y="454.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="700" fill="#d97706" text-anchor="middle">5e-8 (Trap 5a)</text>
+  <line x1="850.75" y1="427.00" x2="850.75" y2="441.00" stroke="#0d9488" stroke-width="2.00"/>
+  <circle cx="850.75" cy="434.00" r="3.50" fill="#0d9488" stroke="none"/>
+  <text x="850.75" y="420.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="700" fill="#0d9488" text-anchor="middle">2.5e-15 (r*)</text>
+  <line x1="896.00" y1="427.00" x2="896.00" y2="441.00" stroke="#7c3aed" stroke-width="2.00"/>
+  <circle cx="896.00" cy="434.00" r="3.50" fill="#7c3aed" stroke="none"/>
+  <text x="896.00" y="454.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.0" font-weight="700" fill="#7c3aed" text-anchor="middle">2.2e-16 (fp64)</text>
+  <text x="715.00" y="492.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.8" font-weight="700" fill="#059669" text-anchor="middle">Bareiss Over Z: Arbitrary-precision Python int (exact down to 0)</text>
+  <text x="715.00" y="512.00" font-family="system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#475569" text-anchor="middle">Zero tolerance thresholds, zero sliver dropping</text>
+</svg>
